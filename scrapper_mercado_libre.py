@@ -30,9 +30,9 @@ def scrap(url='https://computacion.mercadolibre.com.ar/laptops/notebooks/', i=0)
     return scrap(url,i)
 
 
-n = int(input('Desea Scrapiar:\n1) Si\n2) No\n'))
+n = int(input('Desea Scrapear:\n1) Si\n2) No\n'))
 while(n!=1):
-	n = int(input('Desea Scrapiar:\n1) Si\n2) No\n'))
+	n = int(input('Desea Scrapear:\n1) Si\n2) No\n'))
 
 if(n==1):
 	scrap()
